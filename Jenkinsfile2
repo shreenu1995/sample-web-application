@@ -4,7 +4,7 @@
 
 pipeline{
 
-      agent { label 'jenkins-slave-1' }
+      agent any
       tools {
          git 'Default'
          maven 'maven'
